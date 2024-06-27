@@ -31,7 +31,7 @@ function startListening() {
             window.open('https://academicpal7.onrender.com/', '_blank');
         } else if (speechToText.includes('open design grid')) {
             response = 'Ok, opening Design Grid';
-            window.open('https://designgrid.com', '_blank'); // Replace with the actual URL
+            window.open('https://hari-hara7.github.io/Design-grid/', '_blank'); // Replace with the actual URL
         } else if (speechToText.includes('open academic pal 2.0')) {
             response = 'Ok, opening Academic Pal 2.0';
             window.open('https://academicpal2.0.com', '_blank'); // Replace with the actual URL
