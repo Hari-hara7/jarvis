@@ -26,8 +26,8 @@ function startListening() {
         } else if (speechToText.includes('open whatsapp')) {
             response = 'Ok, opening WhatsApp';
             window.open('https://web.whatsapp.com', '_blank');
-        } else if (speechToText.includes('open academic pal')) {
-            response = 'Ok, opening Academic Pal';
+        } else if (speechToText.includes('open academic')) {
+            response = 'Ok, opening Academic  pal';
             window.open('https://academicpal7.onrender.com/', '_blank');
         } else if (speechToText.includes('open design grid')) {
             response = 'Ok, opening Design Grid';
