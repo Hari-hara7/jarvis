@@ -93,3 +93,36 @@ p {
         transform: rotate(360deg);
     }
 }
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('jarvis.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Optional: add a slight background to make text more readable */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+}
